@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="?android:attr/selectableItemBackground"
+    android:orientation="vertical"
+    android:padding="@dimen/basePadding"
+    tools:background="@android:color/darker_gray">
+
+    <TextView
+        android:id="@+id/details_movie_review_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/view_review_title"
+        android:textColor="@android:color/white"
+        android:textStyle="bold"
+        android:visibility="gone"
+        tools:visibility="visible" />
+
+    <TextView
+        android:id="@+id/details_movie_review_content"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:ellipsize="end"
+        android:gravity="center|start"
+        android:maxLines="2"
+        android:padding="@dimen/basePadding"
+        android:textColor="@android:color/white"
+        tools:ignore="RtlSymmetry"
+        tools:text="TTZZZZZTA" />
+
+
+    <TextView
+        android:id="@+id/details_movie_review_author"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center|start"
+        android:paddingLeft="@dimen/basePadding"
+        android:paddingStart="@dimen/basePadding"
+        android:textColor="@android:color/white"
+        android:textStyle="italic"
+        tools:ignore="RtlSymmetry"
+        tools:text="Peter Pan" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_margin="@dimen/basePadding"
+        android:background="@android:color/white" />
+</LinearLayout>

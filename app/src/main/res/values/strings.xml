@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">PopularMoviesApp Stage 2</string>
+    <string name="cd_poster_image">Poster image from a Movie</string>
+    <string name="menu_sort_by_top_rated">Highest rated</string>
+    <string name="menu_sort_by_popular">Most popular</string>
+    <string name="menu_sort_by_favorite">Favorite</string>
+    <string name="movie_details">Movie Details</string>
+    <string name="details_vote_average">%s / 10</string>
+    <string name="details_mark_favorite">Mark as favorite</string>
+    <string name="details_unmark_favorite">Unmark as favorite</string>
+    <string name="details_trailers">Trailers:</string>
+    <string name="details_trailer">Trailer %s</string>
+
+    <string name="view_review_title">Reviews:</string>
+</resources>

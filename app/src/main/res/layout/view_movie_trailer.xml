@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="@dimen/basePadding"
+    android:background="?android:attr/selectableItemBackground"
+    tools:background="@android:color/darker_gray">
+
+    <TextView
+        android:id="@+id/details_movie_trailer_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/details_trailers"
+        android:textColor="@android:color/white"
+        android:textStyle="bold"
+        android:visibility="gone"
+        tools:visibility="visible" />
+
+
+    <TextView
+        android:id="@+id/details_movie_trailer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:drawableLeft="@drawable/ic_play_arrow_black_24dp"
+        android:drawablePadding="@dimen/basePadding"
+        android:drawableStart="@drawable/ic_play_arrow_black_24dp"
+        android:gravity="center|start"
+        android:padding="@dimen/basePadding"
+        android:textColor="@android:color/white"
+        android:textStyle="bold"
+        tools:ignore="RtlSymmetry"
+        tools:text="Trailer 1" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_margin="@dimen/basePadding"
+        android:background="@android:color/white" />
+</LinearLayout>
